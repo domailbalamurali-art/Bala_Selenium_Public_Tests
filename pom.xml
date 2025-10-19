@@ -36,6 +36,15 @@
       <version>4.34.0</version>
     </dependency>
 
+
+
+<dependency>
+  <groupId>io.github.bonigarcia</groupId>
+  <artifactId>webdrivermanager</artifactId>
+  <version>5.4.0</version> <!-- or latest -->
+</dependency>
+
+    
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
       <groupId>org.testng</groupId>
