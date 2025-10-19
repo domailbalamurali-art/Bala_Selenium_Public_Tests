@@ -21,7 +21,7 @@ import java.net.URL;
 public class E2ETestForEcommerce {
 
     // WebDriver instance, declared here so it can be accessed by all methods.
-    ChromeOptions chromeOptions;
+    private ChromeOptions chromeOptions;
     private WebDriver wd;
 
     /**
@@ -37,7 +37,7 @@ public class E2ETestForEcommerce {
         WebDriver driver = new ChromeDriver();
         // Connect to the Selenium Grid Hub.
         // Make sure your Grid is running at this IP address.
-        wd = new RemoteWebDriver(new URL("http://192.168.29.118:4444/wd/hub"), chromeOptions);
+        wd = new RemoteWebDriver(new URL("http://192.168.29.118:4444"), chromeOptions);
     }
 
     /**
