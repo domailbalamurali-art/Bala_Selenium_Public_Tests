@@ -52,7 +52,7 @@ public class E2ETestForEcommerce {
 
         // Perform the login actions using method chaining.
         login.enterTheURL()
-                .fillCredentials("akhiljda@gmail.com", "Password");
+                .fillCredentials("akhiljda@gmail.com", "Pasword");
 
         // *** ASSERTION: This is the most critical part of the test. ***
         // We assert that the login was successful by calling the verification method
