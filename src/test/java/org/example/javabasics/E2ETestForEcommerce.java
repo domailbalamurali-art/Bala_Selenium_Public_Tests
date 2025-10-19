@@ -34,7 +34,7 @@ public class E2ETestForEcommerce {
     public void beforeMethod() throws MalformedURLException {
         // Set ChromeOptions if needed (e.g., for headless mode).
         ChromeOptions chromeOptions = new ChromeOptions();
-
+        WebDriver driver = new ChromeDriver();
         // Connect to the Selenium Grid Hub.
         // Make sure your Grid is running at this IP address.
         wd = new RemoteWebDriver(new URL("http://192.168.29.118:4444"), chromeOptions);
